@@ -85,6 +85,13 @@ public class BasicExtentReport implements ITestListener
 		Assert.assertTrue(true);
 	}
 
+	
+	@Test
+	public void TC002_checkd()
+	{
+		Test = reports.createTest("Verify Username");
+		Assert.assertTrue(true);
+	}
 	@AfterMethod
 	public void getTestResult(ITestResult result)
 	{
